@@ -1,0 +1,14 @@
+@import '../../styles/base';
+.route--active {
+    font-weight : bold;
+
+    text-decoration : underline;
+}
+
+.Header {
+    margin-right : -15px;
+    margin-left : -15px;
+    padding : 1rem;
+
+    background-color : $primary;
+}
