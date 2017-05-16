@@ -1,5 +1,6 @@
 import React from 'react'
 import { Form, Input, TextArea, Button } from 'semantic-ui-react'
+import './form.scss'
 
 const FormExampleFieldControlId = () => (
   <div className='form-group'>
