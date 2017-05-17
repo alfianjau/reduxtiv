@@ -3,12 +3,12 @@ import React from 'react'
 import './Header.scss'
 // import { Button } from 'semantic-ui-react'
 import Nav from '../sub/Molecule/nav'
-import Icon from '../sub/Atom/Icon'
-
+// import Icon from '../sub/Atom/Icon'
+import HeroSection from '../sub/Molecule/HeroSection'
 export const Header = () => (
   <div className='Header'>
-    <Icon />
     <Nav />
+    <HeroSection />
   </div>
 )
 

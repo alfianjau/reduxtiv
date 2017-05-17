@@ -5,7 +5,7 @@ import './Content.scss'
 // import CardGroup from '../sub/Molecule/CardGroup'
 
 export const Content = () => (
-  <div className='Content'>
+  <div className='Content container'>
     <h1>Content</h1>
     <Blocks />
   </div>

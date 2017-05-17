@@ -2,6 +2,7 @@
     position: relative;
     padding: 1rem 0;
     color: white;
+    z-index: 2;
 }
 
 .FormSection:after {
@@ -16,4 +17,6 @@
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+    -webkit-clip-path : polygon(0% 0%, 100% 0, 100% 450px, 50% 100%, 0 450px);
+            clip-path : polygon(0% 0%, 100% 0, 100% 450px, 50% 100%, 0 450px);
 }
