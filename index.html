@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><title>React Redux Starter Kit</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css"><link rel="shortcut icon" href="http://192.168.100.2:3000/favicon.ico"></head><body><div id="root" style="height: 100%"></div><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkYy92ZAfUy0FPyO2vz0dJHrjVbg_eOmU" type="text/javascript"></script><script>if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+          navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+                // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }, function(err) {
+                // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+          }).catch(function(err) {
+            console.log(err)
+          })
+      })
+  } else {
+        console.log('service worker is not supported');
+    }</script><script type="text/javascript" src="http://192.168.100.2:3000/vendor.6065488dd2acbffe30bb.js"></script><script type="text/javascript" src="http://192.168.100.2:3000/app.6065488dd2acbffe30bb.js"></script></body></html>
